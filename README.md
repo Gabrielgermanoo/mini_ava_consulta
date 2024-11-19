@@ -1,4 +1,23 @@
 # Mini_ava_consulta
+
+## Como instalar e executar o sistema?
+- Instalação:
+  Ao fazer o clone do repositório é recomendado utilizar um ambiente virtual para instalar os pacotes Python para o uso do sistema. Após isso, instalar os pacotes necessários usando:
+  ```bash
+  pip install -r requirements.txt
+  ```
+  Após isso, é necessário fazer uma migração dos dados do backend do projeto de maneira a registrar as tabelas no sistema.
+  ```bash
+  python manage.py migrate
+  ```
+  Com isso, é possível executar o sistema:
+  ```bash
+    python manage.py runserver
+  ```
+
+Todos esses passos apenas são possíveis se o sistema tiver um banco de dados funcionando. O usado nesse projeto foi o POSTGRESQL.
+
+
 # Consultas SQL
 
 ## Operações CRUD
