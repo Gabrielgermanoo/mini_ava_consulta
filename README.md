@@ -15,7 +15,7 @@
     python manage.py runserver
   ```
 
-Todos esses passos apenas são possíveis se o sistema tiver um banco de dados funcionando. O usado nesse projeto foi o POSTGRESQL.
+- Todos esses passos apenas são possíveis se o sistema tiver um banco de dados funcionando. O usado nesse projeto foi o POSTGRESQL.
 
 
 # Consultas SQL
